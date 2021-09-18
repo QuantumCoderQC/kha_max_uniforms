@@ -45,7 +45,7 @@ class Empty {
 	// Test uniform
 	var testUniform: Float32Array;
 
-	// (Krom and Windows)4096 -> No error, 4097 -> Error
+	// (HTML5, Krom and Windows)4096 -> No error, 4097 -> Error
 	// (Android Native) 1024 -> No error, 1025 -> Error
 	var elemetsCount = 4097*4;
 	var testID:ConstantLocation;
